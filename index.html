@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карточки с контентом</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="components/card-component.js"></script>
+
+</head>
+<body>
+  <h1>Наши товары</h1>
+  <section class="wrapper">
+    <card-component>
+        <h2 slot="header">Apple iPhone 15 Pro Max</h2>
+        <img slot="content" src="images/pict1.png" alt="iPhone 15 Pro Max">
+        <p slot="content">Первый iPhone в корпусе с элементами из титана авиационного качества, ультрасовременными камерами и процессором A17 Pro для мощных мобильных игр и других сложных задач.</p>
+    </card-component>
+    <card-component>
+        <h2 slot="header">Samsung Galaxy Z Fold5</h2>
+        <p slot="content">Откройте потрясающий иммерсивный экран  — обновленный для еще более невероятных впечатлений от игр, просмотра видео с эффектом погружения и для максимальной продуктивности уровня ПК, - все это на устройстве размером с планшет.</p>
+        <p> Товара временно нет в наличии</p>
+    </card-component>
+    <card-component>
+      <h2 slot="header">Sony Playstation 4 500Gb</h2>
+      <img slot="content" src="images/pict2.png" alt="Sony Playstation 4">
+      <p slot="content">Встречайте оригинальную PS4, обладающую потрясающей игровой мощью, о которой всегда мечтали игроки.</p>
+      <button> Заказать аксессуары</button>
+  </card-component>
+  <card-component>
+    <h2 slot="header">Dyson Airwrap Complete Long HS05</h2>
+    <img slot="content" src="images/pict3.png" alt="Sony Playstation 4">
+    <p slot="content">Наилучший стайлер для быстрой и бережной укладки.</p>
+    <button>Сообщить о поступлении</button>
+  </card-component>
+  <card-component>
+    <h2 slot="header">Apple AirPods Max</h2>
+    <img slot="content" src="images/pict4.png" alt="Sony Playstation 4">
+    <p slot="content"> Все элементы AirPods Max спроектированы таким образом, чтобы наушники оптимально прилегали к голове любой формы. Благодаря этому достигается невероятное качество и богатство звука.</p>
+  </card-component>
+  <card-component>
+    <h2 slot="header">Наш магазин</h2>
+    <p slot="content">Все эти и многие другие товары вы можете изучить в нашем магазине</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.5144948765524!2d37.43085727750831!3d55.68004237305737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ddd338d3da9%3A0x7db2e8cd5f54e910!2z0KDRj9Cx0LjQvdC-0LLQsNGPINGD0LsuLCAxMjMsINCc0L7RgdC60LLQsCwgMTE5NTMw!5e0!3m2!1sru!2sru!4v1698514760269!5m2!1sru!2sru" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h3>Москва, Рябиновая ул., 123</h3>
+    <h3>+7 499 123 45 67</h3>
+  </card-component>
+  </section>
+</body>
+</html>
